@@ -22,6 +22,7 @@ function descripciones(){
     let fumigacion = document.getElementById("fumigacion");
     let sanitizacion = document.getElementById("sanitizacion");
     let amonio = document.getElementById("amonio");
+    let certificacion = document.getElementById("certificacion");
 
     desratizacion.innerText = `
     Se utilizarán rodenticidas monodosis de última generación, anticoagulantes a base de bromadiolona al 0,005% y flocoumafen al 0,05%, tanto en cebos pellets en el interior como cebos en bloque (estaciones de PVC o caja plástica según preferencia) para el exterior.
@@ -37,7 +38,9 @@ function descripciones(){
     `;
 
     fumigacion.innerText = `
-    
+    Aqui me faltaria una descripción como la de los demás
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore reiciendis recusandae? Voluptates, incidunt esse saepe reprehenderit soluta inventore laudantium minus officia quam sunt tempora et distinctio itaque assumenda animi?
     `;
 
     sanitizacion.innerText = `
@@ -48,11 +51,16 @@ function descripciones(){
     `;
 
     amonio.innerText = `
-    
+    Aqui me faltaria una descripción como la de los demás
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore reiciendis recusandae? Voluptates, incidunt esse saepe reprehenderit soluta inventore laudantium minus officia quam sunt tempora et distinctio itaque assumenda animi?
     `;
 
+    certificacion.innerText = `
+    Aqui me faltaria una texto con la certificacion, un resumen o algo, pero ojalá NO IMAGEN!
 
-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore reiciendis recusandae? Voluptates, incidunt esse saepe reprehenderit soluta inventore laudantium minus officia quam sunt tempora et distinctio itaque assumenda animi?
+    `;
 
 
 }

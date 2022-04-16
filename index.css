@@ -15,21 +15,33 @@
     background-color: var(--verde);
     color: var(--gris);
 }
+#wide-img
+{
+    display: none;
+    visibility: collapse;
+    opacity: 0;
+}
+
+#mobile-img
+{
+    display: block ;
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    max-width: 385px;
+
+}
 header
 {
-    min-height: 35vh;
-    max-height: 35vh;
+    min-height: 30vh;
+    max-height: 30vh;
     background: var(--gris2);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-header img
-{
-    width: 100%;
-    max-width: 455px;
-}
+
 
 div#control{
     position: absolute;
@@ -40,12 +52,14 @@ div#control{
     height: 100vh;
     max-height: 100vh;
     overflow: hidden;
+    text-align: justify;
+
 }
 main
 {
     position: absolute;
     z-index: 100;
-    top: 30vh;
+    top: 35vh;
     left: 5%;
     min-width: 90%;
     max-width: 90%;
@@ -54,32 +68,10 @@ main
     padding: 0 20px;
     overflow-y: scroll;
     border-radius: 5px;
-    border: var(--verde) 2px dotted ;
+    border-left: var(--verde) 3px dotted ;
+    border-right: var(--naranjo) 3px dotted ;
     background: linear-gradient(to bottom, #fffd 90%, transparent 99%);
 
-}
-.cuadroSec
-{
-    /* outline: red solid 3px; */
-    /* height: 200vh; */
-    min-height: fit-content;
-    /* position: absolute;
-    background: #fff;
-    color: #000;
-    display: flex;
-    min-height: 20vh;
-    width: 90%;
-    top: calc( 50vh - 15vh);
-    left: calc( 50% - 45%);
-    border-radius: 10px;
-    height: fit-content; */
-
-}
-.cuadroSec.off
-{
-    display: none;
-    visibility: collapse;
-    opacity: 0;
 }
 
 .cuadroSec>div
@@ -89,7 +81,7 @@ main
 }
 .cuadroSec>div h5
 {
-    margin-bottom: 20px;
+    margin: 50px 0 10px;
     font-size: 1.2em;
 }
 
@@ -116,7 +108,6 @@ footer
     font-size: 120%;
     font-weight: bolder;
     color: #000;
-    text-shadow: #fff 1px 1px 5px, #fff -1px -1px 5px;
     /* outline: red solid 3px; */
 }
 footer p
@@ -129,10 +120,90 @@ footer p
 
 @media (min-width: 600px) {
 
-*
-{
-    color: red;
-}
 
+    #wide-img
+    {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        height: 15vh;  
+    }
+    
+    #mobile-img
+    {
+        display: none ;
+        visibility:collapse;
+        opacity: 0;
+    }
+ 
+    div#control
+    {
+        background: url(Files/fondo2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    header
+    {
+        min-height: 15vh;
+        max-height: 15vh;
+        background: unset;
+        
+    }
+  
+    main
+    {
+        position: absolute;
+        z-index: 100;
+        top: 16vh;
+        left: calc( 50% - 45vw );
+        min-width: 70vw;
+        max-width: 70vw;
+        min-height: 70vh;
+        max-height: 70vh;
+        padding: 0 20px;
+        overflow-y: scroll;
+        border-radius: 10px;
+        border-left: var(--verde) 10px dashed ;
+        border-right: var(--naranjo) 10px dashed ;
+        background: #fffe;
+        /* background: linear-gradient(to bottom, #fffd 90%, transparent 99%); */
 
+    }
+
+    .cuadroSec>div h5
+    {
+        margin: 50px 0 5px;
+        font-size: 2em;
+    }
+
+    footer
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        background: #000;
+        color: var(--verde);
+        left: 0;
+        min-width: 100%;
+        max-width: 100%;
+        height: 10vh;
+        bottom: 0;
+        padding: 5px 300px 10px;
+    }
+
+    footer h4 
+    {
+        flex-grow: 1;
+    }
+    footer ul
+    {
+        flex-grow: 1;
+        list-style: none;
+        font-size: 1em;
+    }
+    footer p
+    {
+        flex-grow: 1;
+        font-size: 1em;
+
+    }
 }
