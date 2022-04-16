@@ -3,7 +3,7 @@ function desarrollo(){
     const horas = 
     [{
         "d1":4,   //15 abril    22.00 - 02.00
-        "d2":1,  //16 abril     14.30 - 
+        "d2":5,  //16 abril     14.30 - 19.30
         "d3":0,   //
         "d4":0,   //
         "d5":0,   //
