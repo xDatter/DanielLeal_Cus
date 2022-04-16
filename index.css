@@ -1,0 +1,138 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    --naranjo: #DA9118;
+    --verde: #A1BF37;
+    --gris: #222;
+    --gris2: #333132;
+}
+*::selection
+{
+    background-color: var(--verde);
+    color: var(--gris);
+}
+header
+{
+    min-height: 35vh;
+    max-height: 35vh;
+    background: var(--gris2);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+header img
+{
+    width: 100%;
+    max-width: 455px;
+}
+
+div#control{
+    position: absolute;
+    z-index: 0;
+    color: #000;
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+main
+{
+    position: absolute;
+    z-index: 100;
+    top: 30vh;
+    left: 5%;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 50vh;
+    max-height: 50vh;
+    padding: 0 20px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: var(--verde) 2px dotted ;
+    background: linear-gradient(to bottom, #fffd 90%, transparent 99%);
+
+}
+.cuadroSec
+{
+    /* outline: red solid 3px; */
+    /* height: 200vh; */
+    min-height: fit-content;
+    /* position: absolute;
+    background: #fff;
+    color: #000;
+    display: flex;
+    min-height: 20vh;
+    width: 90%;
+    top: calc( 50vh - 15vh);
+    left: calc( 50% - 45%);
+    border-radius: 10px;
+    height: fit-content; */
+
+}
+.cuadroSec.off
+{
+    display: none;
+    visibility: collapse;
+    opacity: 0;
+}
+
+.cuadroSec>div
+{
+    margin: 20px auto;
+    height: fit-content;
+}
+.cuadroSec>div h5
+{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.cuadroSec>div ul
+{
+    padding: 0 30px 0 10px;
+}
+.cuadroSec>div ul li p:first-child
+{
+    color: var(--naranjo);
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+footer
+{
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    bottom: 1vh;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+    color: #000;
+    text-shadow: #fff 1px 1px 5px, #fff -1px -1px 5px;
+    /* outline: red solid 3px; */
+}
+footer p
+{
+    font-size: 16px;
+}
+
+
+/* ---------------responsive mobile first------------ */
+
+@media (min-width: 600px) {
+
+*
+{
+    color: red;
+}
+
+
+}
