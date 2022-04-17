@@ -72,7 +72,7 @@ function contactos(){
 
 
     marca.innerText = `
-    Region de los Lagos
+    Región de Los Lagos
     Sitio en construcción
     Developed by Ignacio_c_dev
     340`
