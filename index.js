@@ -24,7 +24,7 @@ function descripciones(){
     let somos = document.getElementById("somos");
 
     desratizacion.innerText = `
-    Se utilizarán rodenticidas monodosis de última generación, anticoagulantes a base de bromadiolona al 0,005% y flocoumafen al 0,05%, tanto en cebos pellets en el interior como cebos en bloque (estaciones de PVC o caja plástica según preferencia) para el exterior. También utilizaremos trampas pegajosas para roedores y trampas de captura viva.
+    Se utilizarán rodenticidas anticoagulantes monodosis de última generación, tanto en cebos pellets en el interior, como cebos en bloque (estaciones de PVC o caja plástica según preferencia) para el exterior. También se ofrecen trampas pegajosas para roedores y de captura viva.
     
     Cabe considerar que los roedores constituyen un riesgo sanitario importante en la transmisión de múltiples enfermedades, tales como salmonelosis, hantavirosis, tifus murino, triquinosis, etc.
     `;
@@ -75,7 +75,7 @@ function contactos(){
     Región de Los Lagos
     Sitio en construcción
     Developed by Ignacio_c_dev
-    div`
+    desrati`
 
     tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 8773 4447</p>`
     tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 64 1032`
