@@ -144,13 +144,26 @@ footer ul
 }
 footer ul li
 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
     height: 1.5em;
 }
+footer ul li a
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
 footer ul svg
 {
-   width: 0;
-   height: 0;
+   width: 10px;
+   height: 10px;
+   margin-right: 5px;
+
 }
+
 #redSocial1 a, #redSocial2 a
 {
     text-decoration: none;
@@ -199,7 +212,7 @@ footer ul li
 }
 footer ul svg
 {
-    width: 10px;
+    width: 20px;
 }
 
 }

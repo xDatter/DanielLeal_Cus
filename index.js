@@ -77,12 +77,12 @@ function contactos(){
     Sitio en construcción
     Developed by Ignacio_c_dev`
 
-    tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> +56 9 87734447`
-    tel2.innerHTML = `<i class="fa-solid fa-phone"></i> +64 2 641032`
-    correo1.innerHTML = `<i class="fa-regular fa-envelope"></i> ventas@sanirat.cl`
-    correo2.innerHTML = ``
-    redSocial1.innerHTML = `<a href="${social1}" target="_blank"><i class="fa-brands fa-facebook"></i>  Ver en Facebook</a>`
-    redSocial2.innerHTML = `<a href="${social2}" target="_blank"><i class="fa-brands fa-instagram"></i> Ver en Red Social 2</a>`
+    tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 87734447</p>`
+    tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 641032`
+    correo1.innerHTML = `<i class="fa-regular fa-envelope"></i><p></p> ventas@sanirat.cl`
+    correo2.innerHTML = `<p></p>`
+    redSocial1.innerHTML = `<a href="${social1}" target="_blank"><i class="fa-brands fa-facebook"></i><p></p>  Ver en Facebook</a>`
+    redSocial2.innerHTML = `<a href="${social2}" target="_blank"><i class="fa-brands fa-instagram"></i><p></p> Ver en Red Social 2</a>`
 
 
 }
