@@ -97,13 +97,14 @@ main
 {
     margin: 15px 0 10px;
 }
+.cuadroSec div p#certificacion
+{
+    margin-bottom: 100px;
+}
 
 .cuadroSec>div ul
 {
     padding: 0 0 0 15px;
-    /* list-style:url("https://icon-library.com/images/tick-icon-png/tick-icon-png-7.jpg"); */
-    /* outline: green solid 3px; */
-
 }
 .cuadroSec>div ul li p:first-child
 {
@@ -117,9 +118,62 @@ footer
     position: absolute;
     z-index: 200;
     width: 100%;
-    min-height: fit-content;
+    min-height: 5vh;
     max-height: fit-content;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    bottom: 0;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--verde);
+    background: #000;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+footer ul
+{
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    padding: 1px 0 1px 5px;
+}
+footer ul li
+{
+    height: 1.5em;
+}
+footer ul svg
+{
+   width: 0;
+   height: 0;
+}
+#redSocial1 a, #redSocial2 a
+{
+    text-decoration: none;
+    color: var(--naranjo);
+}
+#redSocial1 a:visited, #redSocial2 a:visited
+{
+    color: var(--naranjo);
+}
+
+
+/* ---------------responsive mobile first------------ */
+@media (min-width: 310px) {
+
+footer
+{
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    min-height: 10vh;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-content: flex-start;
     flex-wrap: wrap;
@@ -130,33 +184,35 @@ footer
     color: var(--verde);
     background: #000;
     font-size: 10px;
-}
-
-footer h4
-{
-    width: 100%;
+    font-weight: bold;
 }
 footer ul
 {
     list-style: none;
-    max-width: 32%;
     flex-grow: 1;
     text-align: left;
-    padding: 0 10px;
+    padding: 1px 0 1px 5px;
 }
-
-#redSocial1 a, #redSocial2 a
+footer ul li
 {
-    color: var(--naranjo);
+    height: 1.5em;
 }
-#redSocial1 a:visited, #redSocial2 a:visited
+footer ul svg
 {
-    color: var(--naranjo);
+    width: 10px;
 }
 
+}
 
-/* ---------------responsive mobile first------------ */
-
+@media (min-width: 400px) {
+    footer ul
+    {
+        list-style: none;
+        flex-grow: 1;
+        text-align: left;
+        padding: 1px 0 1px 30px;
+    }
+}
 @media (min-width: 600px) {
 
 
@@ -204,9 +260,15 @@ footer ul
         border-left: var(--verde) 10px dashed ;
         border-right: var(--naranjo) 10px dashed ;
         background: #fffe;
-
+        font-size: 20px;
     }
 
+    .cuadroSec>div
+    {
+        margin: 0 auto;
+        height: fit-content;
+        font-size: 18px;
+    }
     .cuadroSec>div h5
     {
         margin: 50px 0 5px;
@@ -228,20 +290,43 @@ footer ul
         padding: 5px 300px 10px;
     }
 
-    footer h4 
+    footer
     {
-        flex-grow: 1;
+        position: absolute;
+        z-index: 200;
+        width: 100%;
+        min-height: 10vh;
+        max-height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        bottom: 0;
+        text-align: center;
+        font-weight: bolder;
+        color: var(--verde);
+        background: #000;
+        font-size: 16px;
     }
+
     footer ul
     {
+        list-style: none;
+        max-width: 32%;
         flex-grow: 1;
+        text-align: left;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
         list-style: none;
         font-size: 1em;
     }
-    footer p
+    footer ul li
     {
-        flex-grow: 1;
-        font-size: 1em;
-
+        width: 100%;
     }
 }

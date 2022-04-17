@@ -4,7 +4,7 @@ function desarrollo(){
     [{
         "d1":4,     //15 abril  22.00 - 02.00
         "d2":5,     //16 abril  14.30 - 19.30
-        "d3":0,     //17 abril  01.30 - 
+        "d3":2,     //17 abril  01.30 - 03.30
         "d4":0,     //
         "d5":0,     //
         "d6":0      //
@@ -72,16 +72,17 @@ function contactos(){
     let social2 = "#"
 
 
-    marca.innerText = `Region de los Lagos
+    marca.innerText = `
+    Region de los Lagos
     Sitio en construcción
     Developed by Ignacio_c_dev`
 
-    tel1.innerText = `+56 9 87734447`
-    tel2.innerText = `+64 2 641032`
-    correo1.innerText = `ventas@sanirat.cl`
-    correo2.innerText = ``
-    redSocial1.innerHTML = `<a href="${social1}" target="_blank">Ver en Facebook</a>`
-    redSocial2.innerHTML = `<a href="${social2}" target="_blank">Ver en Red Social 2</a>`
+    tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> +56 9 87734447`
+    tel2.innerHTML = `<i class="fa-solid fa-phone"></i> +64 2 641032`
+    correo1.innerHTML = `<i class="fa-regular fa-envelope"></i> ventas@sanirat.cl`
+    correo2.innerHTML = ``
+    redSocial1.innerHTML = `<a href="${social1}" target="_blank"><i class="fa-brands fa-facebook"></i>  Ver en Facebook</a>`
+    redSocial2.innerHTML = `<a href="${social2}" target="_blank"><i class="fa-brands fa-instagram"></i> Ver en Red Social 2</a>`
 
 
 }
