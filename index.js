@@ -75,7 +75,7 @@ function contactos(){
     Region de los Lagos
     Sitio en construcción
     Developed by Ignacio_c_dev
-    850`
+    420`
 
     tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 8773 4447</p>`
     tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 64 1032`
