@@ -41,12 +41,12 @@ function descripciones(){
     Eliminación en superficies coronavirus SARS-CoV-2 (COVID-19).
 
     Staphylococcus Aureus. Es una de las bacterias principales causantes de mastitis clínica crónica o recurrentes en vacas de lechería. Provocando pérdidas económicas de consideración.
+    
+    Servicio de control de plagas en planteles de animales bajo certificación oficial P.A.B.C.O.
     `;
 
 
     certificacion.innerText = `
-    Servicio de control de plagas en planteles de animales bajo certificación oficial P.A.B.C.O.
-
     Autorizada para uso de plaguicidas mediante la resolución exenta 21397/2020 de la Seremi de salud de Los Lagos.
 
     Autorizada para el uso de desinfectantes mediante la resolución exenta 19971/2020 de la Seremi de salud de los Lagos.
@@ -75,7 +75,7 @@ function contactos(){
     Región de Los Lagos
     Sitio en construcción
     Developed by Ignacio_c_dev
-    340`
+    div`
 
     tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 8773 4447</p>`
     tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 64 1032`
