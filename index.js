@@ -75,7 +75,8 @@ function contactos(){
     marca.innerText = `
     Region de los Lagos
     Sitio en construcción
-    Developed by Ignacio_c_dev`
+    Developed by Ignacio_c_dev
+    950`
 
     tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 87734447</p>`
     tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 641032`
