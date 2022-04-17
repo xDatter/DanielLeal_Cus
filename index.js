@@ -19,7 +19,6 @@ function desarrollo(){
 function descripciones(){
     let desratizacion = document.getElementById("desratizacion");
     let desinsectacion = document.getElementById("desinsectacion");
-    let fumigacion = document.getElementById("fumigacion");
     let sanitizacion = document.getElementById("sanitizacion");
     let certificacion = document.getElementById("certificacion");
     let somos = document.getElementById("somos");
@@ -34,23 +33,16 @@ function descripciones(){
     Utilizamos insecticidas de última generación, de baja toxicidad para el hombre y animales, los cuales además son de amplio espectro, teniendo efecto en el sistema nervioso de insectos rastreros y voladores, actuando por contacto o ingestión. Según el servicio a realizar se puede ofrecer nebulización de micropartículas (no empapa las superficies con el producto).
     `;
 
-    fumigacion.innerText = `
-    Aqui me faltaria una descripción como la de los demás
-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore reiciendis recusandae? Voluptates, incidunt esse saepe reprehenderit soluta inventore laudantium minus officia quam sunt tempora et distinctio itaque assumenda animi?
-    `;
-
     sanitizacion.innerText = `
-    Se aplican sanitizantes de buen efecto residual con acción fungicida, controlando hongos, bacterias, virus, algas -causantes de diversas enfermedades.
-
+    Se aplican sanitizantes de amonio cuaternario con micropartículas de cobre, de buen efecto residual con acción contra hongos, bacterias, virus y algas causantes de diversas enfermedades.
     Eliminación en superficies coronavirus SARS-CoV-2 (COVID-19).
     `;
 
 
     certificacion.innerText = `
-    Sanirat LTDA está autorizada para el uso de plaguicidas mediante la resolución exenta 21397/2020 de la SEREMI de Salud de la Región de Los Lagos.
+    Autorizada para uso de plaguicidas mediante la resolución exenta 21397/2020 de la Seremi de salud de Los Lagos.
 
-    Sanirat LTDA está autorizada para el uso de desinfectantes mediante la resolución exenta 19971/2020 de la SEREMI de Salud de la Región de Los Lagos.
+    Autorizada para el uso de desinfectantes mediante la resolución exenta 19971/2020 de la Seremi de salud de los Lagos.
     `;
 
 
@@ -69,21 +61,21 @@ function contactos(){
     let redSocial2 = document.getElementById("redSocial2");
 
     let social1 = "https://www.facebook.com/Sanirat-control-de-plagas-100292669338098/"
-    let social2 = "#"
+    let social2 = "https://www.instagram.com/sanirat.osorno/"
 
 
     marca.innerText = `
     Region de los Lagos
     Sitio en construcción
     Developed by Ignacio_c_dev
-    950`
+    850`
 
-    tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 87734447</p>`
-    tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 641032`
+    tel1.innerHTML = `<i class="fa-brands fa-whatsapp"></i> <p>+56 9 8773 4447</p>`
+    tel2.innerHTML = `<i class="fa-solid fa-phone"></i><p></p> +64 2 64 1032`
     correo1.innerHTML = `<i class="fa-regular fa-envelope"></i><p></p> ventas@sanirat.cl`
     correo2.innerHTML = `<p></p>`
     redSocial1.innerHTML = `<a href="${social1}" target="_blank"><i class="fa-brands fa-facebook"></i><p></p>  Ver en Facebook</a>`
-    redSocial2.innerHTML = `<a href="${social2}" target="_blank"><i class="fa-brands fa-instagram"></i><p></p> Ver en Red Social 2</a>`
+    redSocial2.innerHTML = `<a href="${social2}" target="_blank"><i class="fa-brands fa-instagram"></i><p></p> Ver en Instagram</a>`
 
 
 }

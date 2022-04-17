@@ -173,6 +173,10 @@ footer ul svg
 {
     color: var(--naranjo);
 }
+ #correo1, #correo2
+ {
+     font-size: 1.1em;
+ }
 
 
 /* ---------------responsive mobile first------------ */
@@ -226,7 +230,7 @@ footer ul svg
         padding: 1px 0 1px 30px;
     }
 }
-@media (min-width: 950px) {
+@media (min-width: 850px) {
 
 
     #wide-img
