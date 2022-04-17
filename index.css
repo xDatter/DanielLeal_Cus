@@ -28,20 +28,28 @@
     visibility: visible;
     opacity: 1;
     width: 100%;
-    max-width: 385px;
+    max-width: 220px;
 
 }
 header
 {
-    min-height: 30vh;
-    max-height: 30vh;
+    min-height: 20vh;
+    max-height: 20vh;
     background: var(--gris2);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-
+#marca
+{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 10px;
+    color: #fff7;
+    font-weight: bolder;
+}
 
 div#control{
     position: absolute;
@@ -59,35 +67,43 @@ main
 {
     position: absolute;
     z-index: 100;
-    top: 35vh;
-    left: 5%;
-    min-width: 90%;
-    max-width: 90%;
-    min-height: 50vh;
-    max-height: 50vh;
+    top: 21vh;
+    left: 1%;
+    min-width: 98%;
+    max-width: 98%;
+    min-height: 70vh;
+    max-height: 70vh;
     padding: 0 20px;
     overflow-y: scroll;
     border-radius: 5px;
-    border-left: var(--verde) 3px dotted ;
-    border-right: var(--naranjo) 3px dotted ;
+    border-left: var(--verde) 8px dashed ;
+    border-right: var(--naranjo) 8px dashed ;
     background: linear-gradient(to bottom, #fffd 90%, transparent 99%);
 
 }
 
 .cuadroSec>div
 {
-    margin: 20px auto;
+    margin: 0 auto;
     height: fit-content;
+    font-size: 14px;
 }
 .cuadroSec>div h5
 {
     margin: 50px 0 10px;
     font-size: 1.2em;
 }
+.cuadroSec>div h5:first-child
+{
+    margin: 15px 0 10px;
+}
 
 .cuadroSec>div ul
 {
-    padding: 0 30px 0 10px;
+    padding: 0 0 0 15px;
+    /* list-style:url("https://icon-library.com/images/tick-icon-png/tick-icon-png-7.jpg"); */
+    /* outline: green solid 3px; */
+
 }
 .cuadroSec>div ul li p:first-child
 {
@@ -103,16 +119,39 @@ footer
     width: 100%;
     min-height: fit-content;
     max-height: fit-content;
-    bottom: 1vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    bottom: 0;
     text-align: center;
-    font-size: 120%;
     font-weight: bolder;
-    color: #000;
-    /* outline: red solid 3px; */
+    color: var(--verde);
+    background: #000;
+    font-size: 10px;
 }
-footer p
+
+footer h4
 {
-    font-size: 16px;
+    width: 100%;
+}
+footer ul
+{
+    list-style: none;
+    max-width: 32%;
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 10px;
+}
+
+#redSocial1 a, #redSocial2 a
+{
+    color: var(--naranjo);
+}
+#redSocial1 a:visited, #redSocial2 a:visited
+{
+    color: var(--naranjo);
 }
 
 
@@ -165,7 +204,6 @@ footer p
         border-left: var(--verde) 10px dashed ;
         border-right: var(--naranjo) 10px dashed ;
         background: #fffe;
-        /* background: linear-gradient(to bottom, #fffd 90%, transparent 99%); */
 
     }
 
