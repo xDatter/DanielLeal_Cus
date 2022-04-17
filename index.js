@@ -24,22 +24,29 @@ function descripciones(){
     let somos = document.getElementById("somos");
 
     desratizacion.innerText = `
-    Se utilizarán rodenticidas monodosis de última generación, anticoagulantes a base de bromadiolona al 0,005% y flocoumafen al 0,05%, tanto en cebos pellets en el interior como cebos en bloque (estaciones de PVC o caja plástica según preferencia) para el exterior.También utilizaremos trampas pegajosas para roedores y trampas de captura viva.
+    Se utilizarán rodenticidas monodosis de última generación, anticoagulantes a base de bromadiolona al 0,005% y flocoumafen al 0,05%, tanto en cebos pellets en el interior como cebos en bloque (estaciones de PVC o caja plástica según preferencia) para el exterior. También utilizaremos trampas pegajosas para roedores y trampas de captura viva.
     
     Cabe considerar que los roedores constituyen un riesgo sanitario importante en la transmisión de múltiples enfermedades, tales como salmonelosis, hantavirosis, tifus murino, triquinosis, etc.
     `;
     
     desinsectacion.innerText = `
-    Utilizamos insecticidas de última generación, de baja toxicidad para el hombre y animales, los cuales además son de amplio espectro, teniendo efecto en el sistema nervioso de insectos rastreros y voladores, actuando por contacto o ingestión. Según el servicio a realizar se puede ofrecer nebulización de micropartículas (no empapa las superficies con el producto).
+    Utilizamos insecticidas de última generación, de baja toxicidad para el hombre y animales, los cuales además son de amplio espectro, teniendo efecto en el sistema nervioso de insectos rastreros y voladores, actuando por contacto o ingestión. 
+    
+    Según el servicio a realizar se puede ofrecer nebulización de micropartículas (no empapa las superficies con el producto).
     `;
 
     sanitizacion.innerText = `
     Se aplican sanitizantes de amonio cuaternario con micropartículas de cobre, de buen efecto residual con acción contra hongos, bacterias, virus y algas causantes de diversas enfermedades.
+
     Eliminación en superficies coronavirus SARS-CoV-2 (COVID-19).
+
+    Staphylococcus Aureus. Es una de las bacterias principales causantes de mastitis clínica crónica o recurrentes en vacas de lechería. Provocando pérdidas económicas de consideración.
     `;
 
 
     certificacion.innerText = `
+    Servicio de control de plagas en planteles de animales bajo certificación oficial P.A.B.C.O.
+
     Autorizada para uso de plaguicidas mediante la resolución exenta 21397/2020 de la Seremi de salud de Los Lagos.
 
     Autorizada para el uso de desinfectantes mediante la resolución exenta 19971/2020 de la Seremi de salud de los Lagos.

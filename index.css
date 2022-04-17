@@ -110,7 +110,7 @@ main
 {
     color: var(--naranjo);
     font-weight: bolder;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 
 footer
