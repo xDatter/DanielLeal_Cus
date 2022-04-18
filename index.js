@@ -2,10 +2,10 @@ function desarrollo(){
     let total = 0;
     const horas = 
     [{
-        "d1":4,     //15 abril  22.00 - 02.00
-        "d2":5,     //16 abril  14.30 - 19.30
-        "d3":2.5,   //17 abril  01.30 - 04.00
-        "d4":0.5,     //17 abril  14.00 - 14.30
+        "d1":0,     //
+        "d2":0,     //
+        "d3":0,     //
+        "d4":0,     //
         "d5":0,     //
         "d6":0      //
     }];
@@ -85,7 +85,6 @@ function contactos(){
 
 
 window.onload=function(){
-    desarrollo();
     descripciones();
     contactos();
 }
